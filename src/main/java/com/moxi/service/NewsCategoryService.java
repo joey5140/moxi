@@ -1,12 +1,12 @@
 package com.moxi.service;
 
-import java.util.List;
-
+import com.moxi.model.NewsCategory;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
-import com.moxi.model.NewsCategory;
+
+import java.util.List;
 
 @Mapper
 public interface NewsCategoryService {
